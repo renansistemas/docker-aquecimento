@@ -1,0 +1,7 @@
+services:
+  web:
+    build:
+      dockerfile: Dockerfile-nginx
+      context: .
+    ports:
+      - 8081:80
